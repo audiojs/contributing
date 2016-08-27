@@ -20,11 +20,9 @@ Thank you for taking the time to contribute!  Here are a few things to help you:
 
 ### Package Style
 
- - `audio-*`: Packages related to [`audio`](https://github.com/audiojs/audio), [`audio-buffer`](https://github.com/audiojs/audio-buffer), or other audio components
-   - Typically is a [Node `stream`](https://nodejs.org/api/stream.html) interface
-   - Except the base components (like `audio` and `audio-buffer`)
-
+ - `audio-*`: Packages related to [`audio`](https://github.com/audiojs/audio), [`audio-buffer`](https://github.com/audiojs/audio-buffer), or other audio components.  Typically is a [Node `stream`](https://nodejs.org/api/stream.html) interface, except the base components.
  - `web-audio-*`: Packages related to the [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
+ - `*-util`: Packages that provide multiple helpful functions. (like [`pcm-util`](https://github.com/audiojs/pcm-util))
 
 ### Also See
  - [audio-lab](https://github.com/audio-lab): Sound research tools
