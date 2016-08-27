@@ -4,10 +4,10 @@ Thank you for taking the time to contribute!  Here are a few things to help you:
 
 ### How to Contribute
 
- 1. Fork or branch from master
+ 1. Fork or branch from the master.
  2. Create commits following the [commit style](#Commit-Style)
  3. Start a pull request to the master branch
- 4. Wait for an **@audiojs/core** member to review and merge
+ 4. Wait for a **@audiojs/core** member to review
 
 ### Commit Style
 
@@ -16,4 +16,15 @@ Thank you for taking the time to contribute!  Here are a few things to help you:
  - Limit the first line to 72 characters or less
  - Reference issues and pull requests
 
-<sub>(inspired from [electron's commit style](https://github.com/electron/electron/blob/master/CONTRIBUTING.md))</sub>
+<sub>(From [electron's commit style](https://github.com/electron/electron/blob/master/CONTRIBUTING.md))</sub>
+
+### Package Style
+
+ - `audio-*`: Packages related to [`audio`](https://github.com/audiojs/audio), [`audio-buffer`](https://github.com/audiojs/audio-buffer), or other audio components
+   - Typically is a [Node `stream`](https://nodejs.org/api/stream.html) interface
+   - Except the base components (like `audio` and `audio-buffer`)
+
+ - `web-audio-*`: Packages related to the [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
+
+### Also See
+ - [audio-lab](https://github.com/audio-lab): Sound research tools
