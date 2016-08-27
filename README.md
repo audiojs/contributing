@@ -1,5 +1,7 @@
 [![gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/audiojs/audio)
 
+Thank you for taking the time to contribute!  Here are a few this to help you:
+
 ### How to Contribute
 
  1. Create a branch or fork
