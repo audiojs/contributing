@@ -26,3 +26,4 @@ Thank you for taking the time to contribute!  Here are a few things to help you:
 
 ### Also See
  - [audio-lab](https://github.com/audio-lab): Sound research tools
+ - [stability-badges](https://github.com/orangemug/stability-badges): The badges used here to show stability.
