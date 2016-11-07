@@ -1,0 +1,10 @@
+# Example travis file
+# Doesnt actually build anything in this repo.
+
+sudo: false
+language: node_js
+node_js:
+  - 'node'
+  - '6'
+  - '5'
+  - '4'
