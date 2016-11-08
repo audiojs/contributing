@@ -2,6 +2,11 @@
 
 Thank you for taking the time to contribute!  Here are a few things to help you:
 
+### Workflow
+
+ - Please verify new stream components with [streams convention](https://github.com/audiojs/contributing/wiki/Streams-convention).
+ - Audiojs uses very loose code style [.eslintrc.json](https://github.com/audiojs/contributing/wiki/.eslintrc.json), please verify code with at least this rule set, or if you prefer, with stricter versions like [standard](https://www.npmjs.com/package/standard) etc.
+
 ### How to Contribute
 
  1. Fork or branch from the master.
@@ -24,10 +29,6 @@ Thank you for taking the time to contribute!  Here are a few things to help you:
  - `web-audio-*`: Packages related to the [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
  - `*-util`: Packages that provide multiple helpful functions. (like [`pcm-util`](https://github.com/audiojs/pcm-util))
  - [Package exports convention](https://github.com/audiojs/contributing/wiki/Streams-convention).
- 
-## Related documents
- - [Streams convention](https://github.com/audiojs/contributing/wiki/Streams-convention) — please verify new components with this doc.
- - [.eslintrc.json](https://github.com/audiojs/contributing/wiki/.eslintrc.json) — please test code with these rules.
 
 ### Also See
  - [audio-lab](https://github.com/audio-lab): Sound research tools
