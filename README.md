@@ -24,6 +24,10 @@ Thank you for taking the time to contribute!  Here are a few things to help you:
  - `web-audio-*`: Packages related to the [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
  - `*-util`: Packages that provide multiple helpful functions. (like [`pcm-util`](https://github.com/audiojs/pcm-util))
  - [Package exports convention](https://github.com/audiojs/contributing/wiki/Streams-convention).
+ 
+## Related documents
+ - [Streams convention](https://github.com/audiojs/contributing/wiki/Streams-convention) — please verify new components with this doc.
+ - [.eslintrc.json](https://github.com/audiojs/contributing/wiki/.eslintrc.json) — please test code with these rules.
 
 ### Also See
  - [audio-lab](https://github.com/audio-lab): Sound research tools
