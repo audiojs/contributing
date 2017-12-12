@@ -4,7 +4,7 @@ Thank you for taking the time to contribute!  Here are a few things to help you:
 
 ### Naming Convention
 
-Packages 
+Package names tend to fall under the following convention:
 
  - `audio-*`: Packages related to [`audio`](https://github.com/audiojs/audio), [`audio-buffer`](https://github.com/audiojs/audio-buffer), [`audio-oscillator`](https://github.com/audiojs/audio-oscillator) etc. Typically implement functional interface: a constructor, returning a function. Usually utilise [`audio-format`](https://github.com/audiojs/audio-format) to solve common problems related to audio data conversions.
  - `audio-*-stream`: Packages with [node `stream`](https://nodejs.org/api/stream.html) interface, usually wrappers over plain `audio-*` packages, enabling audio processing.
