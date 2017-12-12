@@ -11,7 +11,7 @@ Packages
  - `pull-audio-*`: Packages with [pull-stream](https://github.com/pull-stream/pull-stream) interface, usually wrappers over plain `audio-*` packages, enabling audio processing.
  - `web-audio-*`: Packages related to the [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API).
  - `audio-*-native`: Node addon implementation of audio processing module.
- - `audio-*-wasm`: WebAssembly implementation of a package.
+ - `audio-*-wasm`, `audio-*-asm`: WebAssembly implementation of a package.
  
 ### Workflow
 
